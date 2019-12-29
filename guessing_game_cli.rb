@@ -1,4 +1,4 @@
-ddef run_guessing_game
+def run_guessing_game
   num_guess = ""
   until num_guess == "exit"
     puts "Guess a number between 1 and 6."
@@ -12,3 +12,6 @@ ddef run_guessing_game
   end
   puts "Goodbye!"
 end
+
+def run_guessing_game
+  
